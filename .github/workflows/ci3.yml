@@ -5,13 +5,30 @@ on:
       - master
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-18.04
+  test-build:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 20
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Generate Contributors Images
+        uses: jaywcjlove/github-action-contributors@main
+        id: contributors
+        with:
+          filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
+          output: dist/CONTRIBUTORS.svg
+          avatarSize: 42
+
+      - name: Modify README.md
+        uses: jaywcjlove/github-action-modify-file-content@main
+        with:
+          path: README.md
+          openDelimiter: '<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->'
+          closeDelimiter: '<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->'
+          body: ${{steps.contributors.outputs.htmlList}}
 
       - run: npm install
       - run: npm run build

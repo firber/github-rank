@@ -1,49 +1,41 @@
-Preview: [Github](http://jaywcjlove.github.io/github-rank/) | [Gitee](http://jaywcjlove.gitee.io/github-rank) | [UNPKG](https://unpkg.com/@wcj/github-rank/web/index.html) | [Githack](https://raw.githack.com/jaywcjlove/github-rank/gh-pages/index.html) | [Statically](https://cdn.statically.io/gh/jaywcjlove/github-rank/gh-pages/index.html)
+[[中文](./README-zh.md)] Preview: [Github](http://jaywcjlove.github.io/github-rank/) | [Gitee](http://jaywcjlove.gitee.io/github-rank) | [UNPKG](https://unpkg.com/@wcj/github-rank/web/index.html) | [Githack](https://raw.githack.com/jaywcjlove/github-rank/gh-pages/index.html) | [Statically](https://cdn.statically.io/gh/jaywcjlove/github-rank/gh-pages/index.html) | [Netlify](https://githubrank.netlify.app/)
 
 <p align="center">
   <a href="https://jaywcjlove.github.io/github-rank">
-    <img alt="Github Ranking" src="https://user-images.githubusercontent.com/1680273/65843701-9efb9280-e365-11e9-80c7-0ed5def853de.png">
+    <img alt="Github Ranking" src="https://user-images.githubusercontent.com/1680273/204141518-e34799bd-9074-4bf9-9b4e-f3efe6d8051e.png">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/jaywcjlove/github-rank">
-    <img src="https://github.com/jaywcjlove/github-rank/workflows/Build%20and%20Deploy%20Github%20Rank/badge.svg">
-  </a>
-  <a href="https://github.com/jaywcjlove/github-rank/issues">
-    <img src="https://img.shields.io/github/issues/jaywcjlove/github-rank.svg">
-  </a>
-  <a href="https://github.com/jaywcjlove/github-rank/network">
-    <img src="https://img.shields.io/github/forks/jaywcjlove/github-rank.svg">
-  </a>
-  <a href="https://github.com/jaywcjlove/github-rank/stargazers">
-    <img src="https://img.shields.io/github/stars/jaywcjlove/github-rank.svg">
-  </a>
-  <a href="https://www.npmjs.com/package/@wcj/github-rank">
-    <img src="https://img.shields.io/npm/v/@wcj/github-rank.svg">
-  </a>
+  <a href="https://jaywcjlove.github.io/#/sponsor"><img alt="Buy me a coffee" src="https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee"></a>
+  <a href="https://github.com/jaywcjlove/github-rank/actions/workflows/ci3.yml"><img src="https://github.com/jaywcjlove/github-rank/actions/workflows/ci3.yml/badge.svg"></a>
+  <a href="https://github.com/jaywcjlove/github-rank/issues"><img src="https://badgen.net/github/issues/jaywcjlove/github-rank"></a>
+  <a href="https://github.com/jaywcjlove/github-rank/forks"><img src="https://badgen.net/github/forks/jaywcjlove/github-rank"></a>
+  <a href="https://github.com/jaywcjlove/github-rank/stargazers"><img src="https://badgen.net/github/stars/jaywcjlove/github-rank"></a>
+  <a href="https://www.npmjs.com/package/@wcj/github-rank"><img src="https://img.shields.io/npm/v/@wcj/github-rank.svg"></a>
 </p>
 
-Github 中国用户排名，全球仓库 Star 最多排名，通过 Github API v3 来生成页面数据，[排行榜预览](http://jaywcjlove.github.io/github-rank/)，最近还添加了 [SegmentFault 思否近期热门](http://jaywcjlove.github.io/github-rank/sifou-daily.html)、[开发者头条最近热门分享](http://jaywcjlove.github.io/github-rank/toutiao-7.html)。
+Github global/Chinese user rankings, global repositories Star rankings, page data generated through Github API v3, [ranking preview](http://jaywcjlove.github.io/github-rank/).
 
-- [Github **全球** 用户 Followers 排名预览](http://jaywcjlove.github.io/github-rank/)
-- [Github **中国** 用户 Followers 排名预览](http://jaywcjlove.github.io/github-rank/users.china.html)
-- [Github 全球仓库 Star 最多排名预览](http://jaywcjlove.github.io/github-rank/repos.html)
-- [Github 社区趋势榜日、周、月预览](http://jaywcjlove.github.io/github-rank/trending.html) [**`日`**](http://jaywcjlove.github.io/github-rank/trending.html) [**`周`**](http://jaywcjlove.github.io/github-rank/trending-weekly.html) [**`月`**](http://jaywcjlove.github.io/github-rank/trending-monthly.html)
-- [SegmentFault 思否 - 近期热门](http://jaywcjlove.github.io/github-rank/sifou-daily.html) [**`日`**](http://jaywcjlove.github.io/github-rank/sifou-daily.html) [**`周`**](http://jaywcjlove.github.io/github-rank/sifou-weekly.html) [**`月`**](http://jaywcjlove.github.io/github-rank/sifou-monthly.html)
-- [开发者头条 - 最近热门分享](http://jaywcjlove.github.io/github-rank/toutiao-7.html) [**`7天`**](http://jaywcjlove.github.io/github-rank/toutiao-7.html) [**`30天`**](http://jaywcjlove.github.io/github-rank/toutiao-30.html) [**`90天`**](http://jaywcjlove.github.io/github-rank/toutiao-90.html)
+- [Github **Global** User Followers Ranking Preview](http://jaywcjlove.github.io/github-rank/)
+- [Github **China** User Followers Ranking Preview](http://jaywcjlove.github.io/github-rank/users.china.html)
+- [Github **Global** Org User Followers Ranking Preview](http://jaywcjlove.github.io/github-rank/org.html)
+- [Github Global repositories Star Most Ranking Preview](http://jaywcjlove.github.io/github-rank/repos.html)
+- [Github community trend list daily, weekly, monthly preview](http://jaywcjlove.github.io/github-rank/trending.html) [**`daily`**](http://jaywcjlove.github.io/github-rank/trending.html) [**`weekly`**](http://jaywcjlove.github.io/github-rank/trending-weekly.html) [**`monthly`**](http://jaywcjlove.github.io/github-rank/trending-monthly.html)
 
-从 `2019年04月20日` 在 [`npm`](https://www.npmjs.com/package/@wcj/github-rank) 上发版，版本号以 `年`、`月`、`日` 来定义，如: `v19.4.20`。
+Released on [`npm`](https://www.npmjs.com/package/@wcj/github-rank) from `April 20, 2019,` the version number is defined by `year`, `month`, and `day`, such as: `v19.4.20`.
 
-现在每天可以自动更新了，利用 [GitHub Actions Workflows](https://github.com/actions/starter-workflows) 通过定时器，每天 `00:00` (北京时间早上8:00) 触发 GitHub 的工作流，自动爬数据，将生成的 web 页面提交到 `gh-pages` 分支，并且自动发布 [npm](https://www.npmjs.com/package/@wcj/github-rank) 版本，真香！！
+Now it can be updated automatically every day, using [GitHub Actions Workflows](https://github.com/actions/starter-workflows) to trigger the GitHub workflow every day at 00:00 (8:00 am Beijing time) through the timer, automatically crawl the data, submit the generated web page to the gh-pages branch, and Automatically publish [npm](https://www.npmjs.com/package/@wcj/github-rank) version, really fragrant! !
 
-## 使用
+Update date: <!--GAMFC-->2025-02-28 18:00:50<!--GAMFC-END-->
+
+## Plug-in Usage
 
 ```bash
 npm install @wcj/github-rank --save-dev
 ```
 
-使用可以通过引入数据，来获取排名数据，也可以通过 [UNPKG](https://unpkg.com/@wcj/github-rank/dist/users.json) 直接访问[用户排行榜](https://unpkg.com/@wcj/github-rank/web/index.html)。
+Users can obtain ranking data by importing data, or directly access the [user leaderboard](https://unpkg.com/@wcj/github-rank/web/index.html) through [UNPKG](https://unpkg.com/@wcj/github-rank/dist/users.json).
 
 ```js
 import users from '@wcj/github-rank';
@@ -56,7 +48,7 @@ import trendingMonthly from '@wcj/github-rank/dist/trending-monthly.json';
 ```js
 import users from '@wcj/github-rank';
 
-// 默认 users 输出如下数据：
+// By default users outputs the following data:
 [
   {
     "login": "jaywcjlove",
@@ -96,15 +88,46 @@ import users from '@wcj/github-rank';
 ]
 ```
 
-## 获取数据
+## Development
 
 ```bash
-# 获取 Github (中国/全球)用户排行榜(Top 500)
-npm run get
-
-# Github 用户获取中途失败，接着获取剩余用户信息
-npm run get:users:info
-
-# 获取 Github 趋势榜，Github 仓库排行(Top 500), sifou，toutiao 的数据
-npm run get:o
+$ git clone https://github.com/jaywcjlove/github-rank.git
+$ cd github-rank
+$ npm install   # Install dependencies
+$ npm run build # Compilation output script
 ```
+
+Crawlers get data
+
+```bash
+$ npm run get:trending    # Get trending data
+$ npm run get:repos       # Get repos data
+$ npm run get:users       # Get users data
+$ npm run get:users:china # Get users(china) data
+```
+
+Generate HTML page
+
+```bash
+$ npm run start
+```
+
+## Contributors
+
+As always, thanks to our amazing contributors!
+
+<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT--><a href="https://github.com/jaywcjlove" title="小弟调调"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="42;" alt="小弟调调"/></a>
+<a href="https://github.com/renovate-bot" title="Mend Renovate"><img src="https://avatars.githubusercontent.com/u/25180681?v=4" width="42;" alt="Mend Renovate"/></a>
+<a href="https://github.com/leon-kfd" title="Leon-kfd"><img src="https://avatars.githubusercontent.com/u/30256102?v=4" width="42;" alt="Leon-kfd"/></a>
+<a href="https://github.com/ryanuo" title="Ryan uo"><img src="https://avatars.githubusercontent.com/u/66169324?v=4" width="42;" alt="Ryan uo"/></a>
+<a href="https://github.com/372798735" title="mindsets"><img src="https://avatars.githubusercontent.com/u/52733319?v=4" width="42;" alt="mindsets"/></a>
+<a href="https://github.com/antfu" title="Anthony Fu"><img src="https://avatars.githubusercontent.com/u/11247099?v=4" width="42;" alt="Anthony Fu"/></a>
+<a href="https://github.com/FeeiCN" title="Feei"><img src="https://avatars.githubusercontent.com/u/1611552?v=4" width="42;" alt="Feei"/></a>
+<a href="https://github.com/zhenyong" title="ZY"><img src="https://avatars.githubusercontent.com/u/4012276?v=4" width="42;" alt="ZY"/></a><!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
+
+Made with [contributors](https://github.com/jaywcjlove/github-action-contributors), automatically generated.
+
+## License
+
+Licensed under the MIT License.
+
